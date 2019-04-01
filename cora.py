@@ -4,7 +4,9 @@ import torch.nn.functional as F
 from torch_geometric.datasets import Planetoid
 import torch_geometric.transforms as T
 # from gcn import GCNNet as Net
-from gcn_pyg import GCNNet as Net
+# from gcn_pyg import GCNNet as Net
+# from gat_pyg import GATNet as Net
+from sage_pyg import SAGENet as Net
 
 EPOCH = 100
 
